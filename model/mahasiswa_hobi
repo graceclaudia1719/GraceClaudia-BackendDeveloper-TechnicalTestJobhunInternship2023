@@ -1,0 +1,6 @@
+package model
+
+type MahasiswaHobi struct {
+	IDMahasiswa int    `json:"id_mahasiswa"`
+	IDHobi      string `json:"id_hobi"`
+}
